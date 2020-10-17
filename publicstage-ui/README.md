@@ -83,4 +83,31 @@ react 会在组件卸载的时候执行清除操作。react 会在当前这个ef
 ## 
 
 
+## 样式规则
+styles/
+  _variables.scss(各种变量以及可配置设置 色彩、字体、字号)
+  _mixins.scss(全局 mixins 全局的一些重用的属性)
+  _functions.scss(全局 functions 用于计算并且返回一个值)
+components/
+  Button/
+  style.scss(组件 单独的样式)
+
+create-react-app 天生不支持这个 scss 需要安装 node-sass 这个依赖
+
+## 组件库样式变量分类
+* 基础色彩系统
+* 字体系统
+* 表单
+* 按钮
+* 边框和阴影
+* 可配置开关
+
+
+## 关于字体大小的涉及
+* 字体大小 这里使用 rem作为单位，默认的浏览器的 1rem 是 16px
+* 
+
+
+
+
 
