@@ -105,7 +105,44 @@ create-react-app 天生不支持这个 scss 需要安装 node-sass 这个依赖
 
 ## 关于字体大小的涉及
 * 字体大小 这里使用 rem作为单位，默认的浏览器的 1rem 是 16px
-* 
+
+
+## 了解下normalize.css
+
+[normalize.css](https://github.com/necolas/normalize.css)
+它有什么作用呢？
+* 与许多CSS重置不同，保留有用的默认值。
+* 规范各种元素的样式。
+* 更正错误和常见的浏览器不一致问题。
+* 通过细微的修改来提高可用性。
+* 使用详细注释说明代码的作用。
+
+
+## 首先考虑是button组件
+不同的Button Type
+primary Default Danger link Button
+
+不同的Button size
+Normal small Large
+
+disabled 状态
+Disabled  link button
+
+```js
+<Button
+  size="lg"
+  type="primary"
+  disabled
+  href=""?
+  className=""?
+  autoFocus=""?
+  ...
+>
+  我是按钮
+</Button>
+```
+
+
 
 
 
