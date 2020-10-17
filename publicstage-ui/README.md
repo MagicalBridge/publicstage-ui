@@ -142,6 +142,10 @@ Disabled  link button
 </Button>
 ```
 
+scss 的作用域也是从上到下的
+
+
+
 
 
 
